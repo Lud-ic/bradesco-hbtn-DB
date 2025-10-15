@@ -1,4 +1,4 @@
-package main.java.entities;
+package entities;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;

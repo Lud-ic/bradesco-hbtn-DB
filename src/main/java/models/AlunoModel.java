@@ -1,9 +1,9 @@
-package main.java.models;
+package models;
 
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.EntityManagerFactory;
 import jakarta.persistence.Persistence;
-import main.java.entities.Aluno;
+import entities.Aluno;
 
 import java.util.List;
 
