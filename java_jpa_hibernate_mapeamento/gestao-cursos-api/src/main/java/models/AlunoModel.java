@@ -38,6 +38,7 @@ public class AlunoModel {
             System.err.println("Erro ao buscar aluno por ID: " + e.getMessage());
         } finally {
             em.close();
+            System.out.println("Finalizando a transação");
         }
         return aluno;
     }
@@ -53,6 +54,7 @@ public class AlunoModel {
             System.err.println("Erro ao buscar todos os alunos: " + e.getMessage());
         } finally {
             em.close();
+            System.out.println("Finalizando a transação");
         }
         return alunos;
     }
